@@ -1,0 +1,34 @@
+/* タスクリストのコンテナ */
+#taskList {
+  list-style: none; /* リストのマーカーを非表示 */
+  padding: 0;
+  margin: 0;
+}
+
+/* 各タスクのアイテム */
+#taskList li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* タスクのテキスト */
+#taskList li span {
+  flex-grow: 1;
+}
+
+/* 削除ボタン */
+#taskList li button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* タスクが完了した時のスタイル */
+.completed {
+  background-color: #e0ffe0;
+  text-decoration: line-through;
+}
