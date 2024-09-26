@@ -20,3 +20,5 @@ addButton.addEventListener('click', () => {
     taskList.appendChild(li);
     input.value = '';
 });
+// タスクが完了した時の処理
+li.classList.add('completed');
